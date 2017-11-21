@@ -153,11 +153,12 @@ $(document).ready(function(){
         $(this).hide();
     });
 });
-$(document).ready(function(){
-    $(":contains(Duck)").click(function(){
-        $(this).hide();
-    });
-});
+//All elements which contains the text "Duck"
+// $(document).ready(function(){
+//     $(":contains(Duck)").click(function(){ 
+//         $(this).hide();
+//     });
+// });
 $(document).ready(function(){
     $("div:has(p)").click(function(){
         $(this).hide();
@@ -168,11 +169,12 @@ $(document).ready(function(){
         $(this).hide();
     });
 });
-$(document).ready(function(){
-    $(":parent").click(function(){
-        $(this).hide();
-    });
-});
+//All elements that are a parent of another element (including text).
+// $(document).ready(function(){
+    // $(":parent").click(function(){ 
+//         $(this).hide();
+//     });
+// });
 $(document).ready(function(){
     $("p:hidden").click(function(){
         $(this).hide();
@@ -183,11 +185,12 @@ $(document).ready(function(){
         $(this).hide();
     });
 });
-$(document).ready(function(){
-    $(":root").click(function(){
-        $(this).hide();
-    });
-});
+//The document’s root element.
+//$(document).ready(function(){
+    //$(":root").click(function(){ 
+       // $(this).hide();
+    //});
+//});
 $(document).ready(function(){
     $("p:lang(it)").click(function(){
         $(this).hide();
@@ -303,11 +306,12 @@ $(document).ready(function(){
         $(this).hide();
     });
 });
-$(document).ready(function(){
-    $("*").click(function(){
-        $(this).hide();
-    });
-});
+//All elements.
+//$(document).ready(function(){
+  //  $("*").click(function(){ select all elements
+    //    $(this).hide();
+   // });
+//});
 
 </script>
 </head>
