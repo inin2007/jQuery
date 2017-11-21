@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#Lastname").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(".intro").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(".intro, #Lastname").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("h1").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("h1, p").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:first").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:last").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("tr:even").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("tr:odd").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:first-child").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:first-of-type").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:last-child").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:last-of-type").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("li:nth-child(1)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("li:nth-last-child(1)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("li:nth-of-type(2)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("li:nth-last-of-type(2)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("b:only-child").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("h3:only-of-type").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("div > p").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("div p").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("ul + h3").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("ul ~ table").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("ul li:eq(0)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("ul li:gt(0)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("ul li:lt(2)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":header").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":header:not(h1)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":animated").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":focus").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":contains(Duck)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("div:has(p)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":empty").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":parent").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:hidden").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("table:visible").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":root").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p:lang(it)").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("[id]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("[id=my-Address]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("p[id!=my-Address]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("[id$=ess]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("[id|=my]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("[id^=L]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("[title~=beautiful]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("[id*=s]").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":input").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":text").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":password").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":radio").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":checkbox").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":submit").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":reset").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":button").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":image").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":file").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":enabled").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":disabled").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":selected").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $(":checked").click(function(){
+        $(this).hide();
+    });
+});
+$(document).ready(function(){
+    $("*").click(function(){
+        $(this).hide();
+    });
+});
+
+</script>
+</head>
+<body>
+
+<h1>Welcome to My Homepage</h1>
+<div class="intro">
+<p>My name is Donald <span id="Lastname">Duck</span></p>
+
+<p id="my-Address">I live in Duckburg</p>
+
+<p>I have many friends:</p>
+</div>
+
+<ul id="Listfriends>
+<li>Goofy</li>
+<li>Mickey</li>
+<li>Daisy</li>
+<li>Pluto</li>
+</ul>
+<p>I really like Daisy!!</p>
+
+<p lang="it" title="Hello beautiful">Ciao bella</p>
+
+<h3>We are all animals!</h3>
+
+<p><b>My latest discoveries has led me to believe that we are all animals:</b></p>
+
+<table>
+Name	Type of Animal
+Mickey	Mouse
+Goofey	Dog
+Daisy	Duck
+Pluto	Dog
+</table>
+Subscribe to my newsletter:
+
+Name:
+E-mail:
+Password:
+••••••••
+Female:  Male:  Other: 
+Newscategories:
+
+Ducks:
+Dogs:
+Humans:
+Reset  Submit  Cancel
+My Favourite:
+
+DonaldMickeyGoofy
+Upload image:
+
+Choose File  Submit
+</body>
+</html>
