@@ -53,23 +53,33 @@
 <section>  
 <h3>Subscribe to my newsletter:</h3>
 
-<p>Name:</p>
-<p>E-mail:</p>
-<p>Password:</p>
-<p>••••••••</p>
-<p>Female:  Male:  Other: </p>
-<h2>Newscategories:</h2>
-
-<p>Ducks:</p>
-<p>Dogs:</p>
-<p>Humans:</p>
-<p>Reset  Submit  Cancel</p>
+<form>  
+  
+Name: <input type="text">  
+E-mail: <input type="text">    
+Password: <input type="text" value="••••••••"><br>    
+Female:  <input type="radio" checked> 
+Male:  <input type="radio"> 
+Other: <input type="radio"> 
+     
+<h2>Newscategories:</h2> 
+Ducks: <input type="checkbox"checked><br>
+Dogs: <input type="checkbox"><br>
+Humans: <input type="checkbox"><br>
+<button>Reset</button>
+<button>Submit</button> 
+<button>Cancel</button>
+</form>  
 <h3>My Favourite:</h3>
 
-<p>DonaldMickeyGoofy</p>
+<select class="scroll">  
+<option>Donald</option>  
+<option>Mickey</option> 
+<option>Goofy</option>
+</select>
+  
 <h4>Upload image:</h4>
-
-<p>Choose File  Submit</p>
+<input type="file" accept="image/*"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb6NShZcKbsiARUsiwmdh0E_hrhfuYd_mJVXaVHSxRtuXdfa9L" width="82">
 </section>   
 </body>
 </html>
