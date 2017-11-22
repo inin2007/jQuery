@@ -10,4 +10,10 @@ Examples:
 - selecting a radio button
 - clicking on an element
 
+## Mouse Events
+- click
+- dblclick
+- mouseenter
+- mouseleave
+
 https://www.w3schools.com/jquery/jquery_events.asp
