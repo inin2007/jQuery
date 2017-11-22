@@ -6,6 +6,6 @@ An event represents the precise moment when something happens.
 
 Examples:
 
--moving a mouse over an element
--selecting a radio button
--clicking on an element
+- moving a mouse over an element
+- selecting a radio button
+- clicking on an element
