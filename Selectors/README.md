@@ -1,4 +1,4 @@
-#jQuery Selectors Reference
+ #jQuery Selectors Reference
 
 *	$("*")	All elements
 #id	$("#lastname")	The element with id="lastname"
