@@ -1,12 +1,19 @@
  # jQuery Selectors Reference
+ 
 '''
+
 $("*")	All elements
 $("#lastname")	The element with id="lastname"
 $(".intro")	All elements with class="intro"
 $(".intro,.demo")	All elements with the class "intro" or "demo" element	
 $("p")	All <p> elements
+
+'''
+,,, 
 $("h1,div,p")	All <h1>, <div> and <p> elements	 	 
 $("p:first")	The first <p> element
+,,, 
+ 
 $("p:last")	The last <p> element
 $("tr:even")	All even <tr> elements
 $("tr:odd")	All odd <tr> elements 	 	 
