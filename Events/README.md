@@ -9,3 +9,5 @@ Examples:
 - moving a mouse over an element
 - selecting a radio button
 - clicking on an element
+
+https://www.w3schools.com/jquery/jquery_events.asp
