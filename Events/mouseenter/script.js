@@ -1,3 +1,3 @@
 $("#p1").mouseenter(function(){
-    alert("You entered h1!");
+    alert("You entered h2!");
 });
