@@ -1,73 +1,67 @@
  #jQuery Selectors Reference
 
-*	$("*")	All elements
-#id	$("#lastname")	The element with id="lastname"
-.class	$(".intro")	All elements with class="intro"
-.class,.class	$(".intro,.demo")	All elements with the class "intro" or "demo"
-element	$("p")	All <p> elements
-el1,el2,el3	$("h1,div,p")	All <h1>, <div> and <p> elements
- 	 	 
-:first	$("p:first")	The first <p> element
-:last	$("p:last")	The last <p> element
-:even	$("tr:even")	All even <tr> elements
-:odd	$("tr:odd")	All odd <tr> elements
- 	 	 
-:first-child	$("p:first-child")	All <p> elements that are the first child of their parent
-:first-of-type	$("p:first-of-type")	All <p> elements that are the first <p> element of their parent
-:last-child	$("p:last-child")	All <p> elements that are the last child of their parent
-:last-of-type	$("p:last-of-type")	All <p> elements that are the last <p> element of their parent
-:nth-child(n)	$("p:nth-child(2)")	All <p> elements that are the 2nd child of their parent
-:nth-last-child(n)	$("p:nth-last-child(2)")	All <p> elements that are the 2nd child of their parent, counting from the last child
-:nth-of-type(n)	$("p:nth-of-type(2)")	All <p> elements that are the 2nd <p> element of their parent
-:nth-last-of-type(n)	$("p:nth-last-of-type(2)")	All <p> elements that are the 2nd <p> element of their parent, counting from the last child
-:only-child	$("p:only-child")	All <p> elements that are the only child of their parent
-:only-of-type	$("p:only-of-type")	All <p> elements that are the only child, of its type, of their parent
- 	 	 
-parent > child	$("div > p")	All <p> elements that are a direct child of a <div> element
-parent descendant	$("div p")	All <p> elements that are descendants of a <div> element
-element + next	$("div + p")	The <p> element that are next to each <div> elements
-element ~ siblings	$("div ~ p")	All <p> elements that are siblings of a <div> element
- 	 	 
-:eq(index)	$("ul li:eq(3)")	The fourth element in a list (index starts at 0)
-:gt(no)	$("ul li:gt(3)")	List elements with an index greater than 3
-:lt(no)	$("ul li:lt(3)")	List elements with an index less than 3
-:not(selector)	$("input:not(:empty)")	All input elements that are not empty
- 	 	 
-:header	$(":header")	All header elements <h1>, <h2> ...
-:animated	$(":animated")	All animated elements
-:focus	$(":focus")	The element that currently has focus
-:contains(text)	$(":contains('Hello')")	All elements which contains the text "Hello"
-:has(selector)	$("div:has(p)")	All <div> elements that have a <p> element
-:empty	$(":empty")	All elements that are empty
-:parent	$(":parent")	All elements that are a parent of another element
-:hidden	$("p:hidden")	All hidden <p> elements
-:visible	$("table:visible")	All visible tables
-:root	$(":root")	The document's root element
-:lang(language)	$("p:lang(de)")	All <p> elements with a lang attribute value starting with "de"
- 	 	 
-[attribute]	$("[href]")	All elements with a href attribute
-[attribute=value]	$("[href='default.htm']")	All elements with a href attribute value equal to "default.htm"
-[attribute!=value]	$("[href!='default.htm']")	All elements with a href attribute value not equal to "default.htm"
-[attribute$=value]	$("[href$='.jpg']")	All elements with a href attribute value ending with ".jpg"
-[attribute|=value]	$("[title|='Tomorrow']")	All elements with a title attribute value equal to 'Tomorrow', or starting with 'Tomorrow' followed by a hyphen
-[attribute^=value]	$("[title^='Tom']")	All elements with a title attribute value starting with "Tom"
-[attribute~=value]	$("[title~='hello']")	All elements with a title attribute value containing the specific word "hello"
-[attribute*=value]	$("[title*='hello']")	All elements with a title attribute value containing the word "hello"
- 	 	 
-:input	$(":input")	All input elements
-:text	$(":text")	All input elements with type="text"
-:password	$(":password")	All input elements with type="password"
-:radio	$(":radio")	All input elements with type="radio"
-:checkbox	$(":checkbox")	All input elements with type="checkbox"
-:submit	$(":submit")	All input elements with type="submit"
-:reset	$(":reset")	All input elements with type="reset"
-:button	$(":button")	All input elements with type="button"
-:image	$(":image")	All input elements with type="image"
-:file	$(":file")	All input elements with type="file"
-:enabled	$(":enabled")	All enabled input elements
-:disabled	$(":disabled")	All disabled input elements
-:selected	$(":selected")	All selected input elements
-:checked	$(":checked")	All checked input elements
+$("*")	All elements
+$("#lastname")	The element with id="lastname"
+$(".intro")	All elements with class="intro"
+$(".intro,.demo")	All elements with the class "intro" or "demo" element	
+$("p")	All <p> elements
+el1,el2,el3	
+$("h1,div,p")	All <h1>, <div> and <p> elements	 	 
+$("p:first")	The first <p> element
+$("p:last")	The last <p> element
+$("tr:even")	All even <tr> elements
+$("tr:odd")	All odd <tr> elements 	 	 
+$("p:first-child")	All <p> elements that are the first child of their parent
+$("p:first-of-type")	All <p> elements that are the first <p> element of their parent
+$("p:last-child")	All <p> elements that are the last child of their parent
+$("p:last-of-type")	All <p> elements that are the last <p> element of their parent
+$("p:nth-child(2)")	All <p> elements that are the 2nd child of their parent
+$("p:nth-last-child(2)")	All <p> elements that are the 2nd child of their parent, counting from the last child
+$("p:nth-of-type(2)")	All <p> elements that are the 2nd <p> element of their parent
+$("p:nth-last-of-type(2)")	All <p> elements that are the 2nd <p> element of their parent, counting from the last child
+$("p:only-child")	All <p> elements that are the only child of their parent
+$("p:only-of-type")	All <p> elements that are the only child, of its type, of their parent
+$("div > p")	All <p> elements that are a direct child of a <div> element
+$("div p")	All <p> elements that are descendants of a <div> element
+$("div + p")	The <p> element that are next to each <div> elements
+$("div ~ p")	All <p> elements that are siblings of a <div> element
+$("ul li:eq(3)")	The fourth element in a list (index starts at 0)
+$("ul li:gt(3)")	List elements with an index greater than 3
+$("ul li:lt(3)")	List elements with an index less than 3
+$("input:not(:empty)")	All input elements that are not empty 	 	 
+$(":header")	All header elements <h1>, <h2> ...
+$(":animated")	All animated elements
+$(":focus")	The element that currently has focus
+$(":contains('Hello')")	All elements which contains the text "Hello"
+$("div:has(p)")	All <div> elements that have a <p> element
+$(":empty")	All elements that are empty
+$(":parent")	All elements that are a parent of another element
+$("p:hidden")	All hidden <p> elements
+$("table:visible")	All visible tables
+$(":root")	The document's root element
+$("p:lang(de)")	All <p> elements with a lang attribute value starting with "de" 	 	 
+$("[href]")	All elements with a href attribute
+$("[href='default.htm']")	All elements with a href attribute value equal to "default.htm"
+$("[href!='default.htm']")	All elements with a href attribute value not equal to "default.htm"
+$("[href$='.jpg']")	All elements with a href attribute value ending with ".jpg"
+$("[title|='Tomorrow']")	All elements with a title attribute value equal to 'Tomorrow', or starting with 'Tomorrow' followed by a hyphen
+$("[title^='Tom']")	All elements with a title attribute value starting with "Tom"
+$("[title~='hello']")	All elements with a title attribute value containing the specific word "hello"
+$("[title*='hello']")	All elements with a title attribute value containing the word "hello"
+$(":input")	All input elements
+$(":text")	All input elements with type="text"
+$(":password")	All input elements with type="password"
+$(":radio")	All input elements with type="radio"
+$(":checkbox")	All input elements with type="checkbox"
+$(":submit")	All input elements with type="submit"
+$(":reset")	All input elements with type="reset"
+$(":button")	All input elements with type="button"
+$(":image")	All input elements with type="image"
+$(":file")	All input elements with type="file"
+$(":enabled")	All enabled input elements
+$(":disabled")	All disabled input elements
+$(":selected")	All selected input elements
+$(":checked")	All checked input elements
 https://www.w3schools.com/jquery/jquery_ref_selectors.asp
 
 You can see the selectors in my CodePen https://codepen.io/inin2007/details/ooqWme
