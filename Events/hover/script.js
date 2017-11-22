@@ -4,4 +4,5 @@ $(document).ready(function(){
 },
 function(){
     alert("Bye! You now leave h2!");
+    });
 });
