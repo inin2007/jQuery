@@ -16,4 +16,21 @@ Examples:
 - mouseenter
 - mouseleave
 
+## Keyboard Events
+- keypress
+- keydown
+- keyup
+
+## Form Events
+- submit
+- change
+- focus
+- blur
+
+## Document/Window Events
+- load
+- resize
+- scroll
+- unload
+
 https://www.w3schools.com/jquery/jquery_events.asp
