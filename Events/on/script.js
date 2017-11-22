@@ -1,3 +1,4 @@
-$("h2").on("click", function(){
+$(document).ready(function(){
+ $("h2").on("click", function(){
     $(this).hide();
 });
