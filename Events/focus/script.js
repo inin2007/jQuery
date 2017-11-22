@@ -1,3 +1,3 @@
 $("input").focus(function(){
-    $(this).css("background-color", "#cccccc");
+    $(this).css("background-color", "blue");
 });
