@@ -1,4 +1,5 @@
-$("#h2").hover(function(){
+$(document).ready(function(){
+    $("#h2").hover(function(){
     alert("You entered h2!");
 },
 function(){
