@@ -1,4 +1,4 @@
- #jQuery Selectors Reference
+ # jQuery Selectors Reference
 
 $("*")	All elements
 $("#lastname")	The element with id="lastname"
@@ -64,4 +64,4 @@ $(":selected")	All selected input elements
 $(":checked")	All checked input elements
 https://www.w3schools.com/jquery/jquery_ref_selectors.asp
 
-You can see the selectors in my CodePen https://codepen.io/inin2007/details/ooqWme
+ # Also you can see the selectors in my CodePen https://codepen.io/inin2007/details/ooqWme
