@@ -9,13 +9,13 @@ $("#hide").click(function(){
 ```
 $(selector).hide(speed,callback);
 ```
-### For example:
+## Example:
 ```
 $("button").click(function(){
     $("p").hide(1000);
 });
 ```
-### Or:
+## Or:
 ```
 $("button").click(function(){
     $("p").hide(slow);
