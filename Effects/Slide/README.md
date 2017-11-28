@@ -6,7 +6,7 @@ The jQuery slideDown() method is used to slide down an element.
 ```
 $(selector).slideDown(speed,callback);
 ```
-## Example
+## Example:
 ```
 $("button").click(function(){
     $("div").slideDown();
