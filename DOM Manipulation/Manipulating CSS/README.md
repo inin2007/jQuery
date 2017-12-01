@@ -32,7 +32,7 @@ $("button").click(function(){
     $("h1").toggleClass("hello");
 });
 ```
-
+css()
 ```
 $("h2").css({"background-color": "blue", "font-size": "100%"});
 ```
